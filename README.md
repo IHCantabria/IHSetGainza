@@ -1,6 +1,6 @@
-# IHSetDean
+# IHSetGainza
 
-Miller and Dean (2004) proposed a simple model for shoreline evolution using several field datasets. The model is developed based on the observation that shoreline positions change as a function of an equilibrium position. The model includes three adjustable parameters that represent the baseline conditions under which shoreline displacement is calculated to minimize the error. This model is very efficient because it only represents the shoreline response to the process and only requires input of readily available storm surge and water level data.
+Most of the widely used models for determining static equilibrium have been developed empirically. As such, they have no theoretical basis in itself and are only valid in certain simple cases. To overcome these problems, Gainza et al., (2018) proposed a free-shape model which is a process based on the longshore current velocity formula. This model hypothesizes that static states of beach planform are reached when the mean surf-zone longshore velocity averaged over a time period is null from each profile. 
 
 
 ## Installation and use
@@ -8,18 +8,18 @@ Miller and Dean (2004) proposed a simple model for shoreline evolution using sev
 To install this module use:
 
 ```sh
-pip install https://github.com/IHCantabria/IHSetDean/archive/refs/tags/latest.zip
+pip install https://github.com/IHCantabria/IHSetGainza/archive/refs/tags/latest.zip
 ```
 
 Run tests to validate:
 
 ```sh
-ihsetdean-tests
+ihsetgainza-tests
 ```
 
 ## Documentation
 
-Documentation is available at https://ihcantabria.github.io/IHSetDean
+Documentation is available at https://ihcantabria.github.io/IHSetGainza
 
 ## Credits
 
